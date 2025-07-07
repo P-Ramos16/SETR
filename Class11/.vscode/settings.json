@@ -1,0 +1,6 @@
+{
+    "nrf-connect.applications": [
+        "${workspaceFolder}/basic_01_a_blinkDemo"
+    ],
+    "cmake.sourceDirectory": "/home/pramos/Documents/Univ/SETR/Class11/basic_01_a_blinkDemo"
+}

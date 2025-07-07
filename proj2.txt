@@ -1,0 +1,11 @@
+Use asccii
+read local values
+1 byte can do -128 to 127, so we can use only one for temp (goes to -50 to 40)
+we need more for ppi
+
+ex: implement getTemperature() -> reads from device driver but read from vector (emulated)
+sendChar("v");
+rxChar("v");  #  Get oldest char in buffer
+
+
+ex: # RT+21H085C00823 999 !

@@ -1,0 +1,8 @@
+Inputs:
+    - EVT_ONOFF
+    - EVT_P
+    - EVT_N
+
+Outputs:
+    - SET_POWER(PL) 
+        0, 1, 2, 3, 4, 5

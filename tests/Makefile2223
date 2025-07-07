@@ -1,0 +1,10 @@
+clean:
+	rm -rf *.o
+
+all: main
+
+main: main.o func1.o
+	gcc -o main main.o func1.o
+
+%.o: %.c
+	gcc -c $<
